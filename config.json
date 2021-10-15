@@ -1,0 +1,22 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "files": [{
+        "destination": "build/variables.css",
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "files": [{
+        "destination": "build/index.js",
+        "format": "javascript/es6"
+      }]
+    }
+  }
+}
